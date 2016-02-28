@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>index slides</title>
+<title>Programming Setup slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -252,17 +252,26 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Notebook-Lectures-on-Machine-Learning">Notebook Lectures on Machine Learning<a class="anchor-link" href="#Notebook-Lectures-on-Machine-Learning">&#182;</a></h3><p><hr></p>
-<ul>
-<li><strong>Decision Trees</strong> (R) <a href="http://openml.github.io/course/DecisionTrees.slides.html">HTML</a> - <a href="https://github.com/openml/course/blob/gh-pages/DecisionTrees.ipynb">Notebook</a> - <a href="https://github.com/openml/course/blob/gh-pages/DecisionTrees.pdf">PDF</a></li>
-<li>...</li>
+<h1 id="Using-R-and-Python">Using R and Python<a class="anchor-link" href="#Using-R-and-Python">&#182;</a></h1><p>R and Python are both great ways to quickly learn how to do machine learning in practice. They can be learned rather quickly and enable you to do almost anything you want. Mastering them is increasingly crucial for a career in data science.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Jupyter-Notebooks">Jupyter Notebooks<a class="anchor-link" href="#Jupyter-Notebooks">&#182;</a></h2><ul>
+<li>We will use Jupyter Notebooks in some of the course lectures</li>
+<li><em>Literate programming</em>: Explanations + executable code examples</li>
+<li>Contain the full code of what we show in class, so you can try it at home and do your own experiments</li>
 </ul>
-<p><br>
-<br></p>
-<p><hr></p>
+<p>These lectures are made available in 3 formats:</p>
 <ul>
-<li>Download with right click -&gt; Safe link as...</li>
-<li>To interact with the material, read on... (press spacebar)</li>
+<li>HTML: for online viewing (navigation: spacebar, arrows, ESC)</li>
+<li>Notebook: download the .ipynb files and open them with Jupyter</li>
+<li>PDF: for offline reference</li>
 </ul>
 
 </div>
@@ -273,18 +282,52 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Jupyter-notebooks-installation">Jupyter notebooks installation<a class="anchor-link" href="#Jupyter-notebooks-installation">&#182;</a></h3><p><hr>
-To interact with the material, download and open the notebook (.ipynb) files with your local Jupyter installation.</p>
-<h4 id="Install-Anaconda-(Python+Jupyter+more)">Install Anaconda (Python+Jupyter+more)<a class="anchor-link" href="#Install-Anaconda-(Python+Jupyter+more)">&#182;</a></h4><ul>
-<li><a href="https://www.continuum.io/downloads">Install Anaconda</a>, choose the version for your operating system.</li>
+<h2 id="Learning-R">Learning R<a class="anchor-link" href="#Learning-R">&#182;</a></h2><p>There exist many ways to learn R quickly:</p>
+<ul>
+<li>DataCamp (beginner to advanced): <a href="https://www.datacamp.com">https://www.datacamp.com</a></li>
+<li>Codeschool (beginner, step by step): <a href="http://tryr.codeschool.com">http://tryr.codeschool.com</a></li>
+<li>Data Carpentry (intermediate): <a href="http://www.datacarpentry.org/R-ecology">http://www.datacarpentry.org/R-ecology</a></li>
+<li>R Studio guide (installation, environments): <a href="https://www.rstudio.com/resources/training/online-learning/#R">https://www.rstudio.com/resources/training/online-learning/#R</a></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Learning-Python">Learning Python<a class="anchor-link" href="#Learning-Python">&#182;</a></h2><p>Likewise, there are many ways to quickly learn Python:</p>
+<ul>
+<li>DataCamp (beginner to advanced): <a href="https://www.datacamp.com">https://www.datacamp.com</a></li>
+<li>CodeCademy (beginner, step by step): <a href="https://www.codecademy.com/learn/python">https://www.codecademy.com/learn/python</a></li>
+<li>Google's Python Class (intermediate): <a href="https://developers.google.com/edu/python">https://developers.google.com/edu/python</a></li>
+<li>Data Carpentry (intermediate): <a href="http://www.datacarpentry.org/python-ecology">http://www.datacarpentry.org/python-ecology</a></li>
+<li>Many more...</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Setting-up-Python-and-R-environments">Setting up Python and R environments<a class="anchor-link" href="#Setting-up-Python-and-R-environments">&#182;</a></h2><p><hr></p>
+<h3 id="Install-Anaconda-(Python+Jupyter+more)">Install Anaconda (Python+Jupyter+more)<a class="anchor-link" href="#Install-Anaconda-(Python+Jupyter+more)">&#182;</a></h3><ul>
+<li><a href="https://www.continuum.io/downloads">Install Anaconda</a>, choose your OS and the latest Python 3</li>
 <li>Note: This will install a separate Python environment<ul>
 <li>Anaconda puts a line in your .bash_profile to use this version by default</li>
 </ul>
 </li>
 </ul>
-<p>You should now be able to start the notebook server like this:</p>
-
-<pre><code>jupyter notebook</code></pre>
+<p>You should now be able to:</p>
+<ul>
+<li>Start a Python shell by typing <code>python</code> in your command shell</li>
+<li>Start a Jupyter notebook by typing <code>jupyter notebook</code></li>
+</ul>
 
 </div>
 </div>
@@ -294,20 +337,61 @@ To interact with the material, download and open the notebook (.ipynb) files wit
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Install-R-kernel">Install R kernel<a class="anchor-link" href="#Install-R-kernel">&#182;</a></h4><ul>
-<li>To setup the anaconda R environment for the notebooks, execute the following (requires some disk space):
+<h3 id="Installing-Python-extensions">Installing Python extensions<a class="anchor-link" href="#Installing-Python-extensions">&#182;</a></h3><p>Whenever you need a package that is not alreadu installed:</p>
+<ul>
+<li>Try conda: <code>conda install &lt;package&gt;</code></li>
+<li>Try pip: <code>pip install &lt;package&gt;</code></li>
+</ul>
+<p>Some packages need to be installed from GitHub source code:</p>
+<ul>
+<li>Create a folder (e.g. folder 'github' inside the anaconda dir)</li>
+<li><p>Then clone the package and install it:</p>
+
+<pre><code>git clone &lt;git URL&gt;
+cd &lt;new directory&gt;
+python setup.py install</code></pre>
+</li>
+<li><p>OpenML (for ML resources): <a href="https://github.com/openml/python.git">https://github.com/openml/python.git</a></p>
+</li>
+<li>RISE (for slideshows): <a href="https://github.com/damianavila/RISE.git">https://github.com/damianavila/RISE.git</a></li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Jupyter-Extensions">Jupyter Extensions<a class="anchor-link" href="#Jupyter-Extensions">&#182;</a></h3><p>To export PDFs:</p>
+<ul>
+<li><a href="http://pandoc.org/installing.html">Install pandoc</a></li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Installing-R">Installing R<a class="anchor-link" href="#Installing-R">&#182;</a></h3><ul>
+<li>You can install the Anaconda-supported R (not always the latest version), which includes the Jupyter R kernel:
 <pre><code>conda install -c r r
 conda install -c r r-essentials</code></pre>
 </li>
-<li>To use your (previously installed) version of R, install the IR kernel locally:
-<pre><code>install.packages('RCurl') # If necessary
-library(devtools) # Do install.packages('devtools') if that doesn't work
+<li>OSX users: there seems to be a transient bug in Anaconda's Jupyter R kernel. If you experience issues, delete and reinstall anaconda (without R) and install R yourself.</li>
+<li>You can also <a href="https://cran.rstudio.com/">install R yourself</a>. If so, also install the Jupyter R kernel:
+<pre><code>install.packages('devtools') # If necessary
+library(devtools)
 install_github('IRkernel/repr')
 install_github('IRkernel/IRdisplay')  
 install_github('IRkernel/IRkernel')
 IRkernel::installspec()</code></pre>
 </li>
-<li>OSX users: there seems to be a transient bug in the anaconda version of R which makes your R notebooks crash. If you experience issues, delete anaconda, install it again, and then <a href="http://www.michaelpacer.com/maths/r-kernel-for-ipython-notebook">follow this guide</a> to install the IR kernel.</li>
+<li>You can now start the R shell by typing <code>R</code> on the command line (or use RStudio)</li>
 </ul>
 
 </div>
@@ -318,17 +402,19 @@ IRkernel::installspec()</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Extensions">Extensions<a class="anchor-link" href="#Extensions">&#182;</a></h4><p>To generate slideshows:</p>
+<h3 id="Installing-R-extensions">Installing R extensions<a class="anchor-link" href="#Installing-R-extensions">&#182;</a></h3><p>Whenever you need a package that is not already installed:</p>
 <ul>
-<li>Clone the RISE github repo and install it
-<pre><code>git clone https://github.com/damianavila/RISE.git
-python RISE/setup.py install</code></pre>
-</li>
+<li>start your R shell in admin mode, e.g. <code>sudo R</code></li>
+<li><code>install.packages(&lt;package name&gt;)</code>. Case sensitive!</li>
 </ul>
-<p>To export PDFs:</p>
-<ul>
-<li><a href="http://pandoc.org/installing.html">Install pandoc</a></li>
-</ul>
+<p>Some packages need to be installed from GitHub source code:</p>
+
+<pre><code>install.packages('devtools') # If necessary
+library(devtools)
+install_github('&lt;package name&gt;')</code></pre>
+<p>E.g. for OpenML:</p>
+
+<pre><code>install_github('openml/r')</code></pre>
 
 </div>
 </div>
