@@ -1,3 +1,3 @@
 ## A machine learning course based on Jupyter Notebooks
 
-http://openml.github.io/course
+http://joaquinvanschoren.github.io/ML-course-R
